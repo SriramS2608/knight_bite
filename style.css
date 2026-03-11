@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0,0,0.3);
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navlinks a{
+    color: white;
+}
+
+.navlinks a:hover{
+    color: hotpink;
+}
+
+.main-head{
+    background: url(./index/app-link-background.svg) no-repeat center/cover;
+    text-align: center;
+    align-content: center;
+    min-height: 100vh;
+    color: rgb(213, 30, 30);
+    h1{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+    #gplay{
+        height: 65px;
+    }
+    .store{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+.features{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0 3rem ;
+    
+    img{
+        height: 15rem;
+    }
+    p{
+        margin-top: 1rem;
+    }
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+.banner1{
+    background: url(./index/banner-1.webp) no-repeat center/cover;
+    min-height: 100vh;
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    color: white;
+
+}
+.banner2{
+    background: url(./index/banner-2.webp) no-repeat center/cover;
+    min-height: 100vh;
+    align-content: center;
+    text-align:center;
+    font-size: 2rem;
+    padding: 0 1rem;
+    color: aliceblue;
+    #ban{
+        border-radius: 10px;
+        border-color: white;
+        margin-top: 10rem;
+        background-color: transparent;
+        height: 3rem;
+        width: 15rem;
+        color: white;
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+
+}
+.connectus{
+    padding: 2rem;
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.connectus-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 5rem;
+    line-height: 2rem;
+    h3{
+        margin-bottom: 1rem;
+    }
+}
+
+
+.about_header{
+    background: url(./about/banner.webp) no-repeat center/cover;
+    min-height: 100vh;
+    align-content: center;
+    p{
+        color: white;
+        font-size: 1.5rem;
+        padding: 5rem; /* insted of br in the html v can also use width=30% in css*/
+    }
+}
+.about_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    line-height: 2rem;
+    padding: 2rem;
+    .aboutimg{
+        height: 100%;
+        width: 100%;
+    }
+    div{
+        align-content: center;
+    }
+}
+.menuheader{
+    background: url(./menu/banner.webp) no-repeat center/cover;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    gap: 40px;
+    padding-top: 200px;
+    h5{
+        
+        color: white;
+        font-size: 20px;
+    }
+    a{
+        width:70px;
+    }
+}
